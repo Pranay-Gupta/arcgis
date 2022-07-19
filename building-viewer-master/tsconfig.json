@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "lib": ["DOM", "ES2020"],
+    "jsx": "react",
+    "jsxFactory": "tsx",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "moduleResolution": "node",
+    "inlineSourceMap": false,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": true,
+    "noUnusedLocals": true,
+    "baseUrl": ".",
+    // "types": ["dojo"]
+    // "types": ["dojo", "./typings/arcgis-js-api-4.23"]
+  },
+  "include": ["./src/js/**/*"],
+  "exclude": ["node_modules", "typings"]
+}
